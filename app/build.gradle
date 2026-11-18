@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.application' version '8.7.3'
+}
+android {
+    namespace 'tr.olgun.esma'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'tr.olgun.esma'
+        minSdk 24
+        targetSdk 34
+        versionCode 2
+        versionName '1.1'
+    }
+}
